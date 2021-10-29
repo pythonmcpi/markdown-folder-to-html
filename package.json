@@ -39,6 +39,7 @@
   "dependencies": {
     "markdown-it": "^8.4.2",
     "markdown-it-anchor": "^5.2.4",
+    "@hedgedoc/markdown-it-task-lists": "^1.0.2",
     "shelljs": "^0.8.3"
   },
   "devDependencies": {

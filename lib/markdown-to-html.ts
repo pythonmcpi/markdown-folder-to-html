@@ -1,6 +1,7 @@
 import url from "url";
 import markdownIt from "markdown-it";
 import markdownItAnchor from "markdown-it-anchor";
+import taskLists from '@hedgedoc/markdown-it-task-lists';
 import mdUrl from "./markdown-url-to-html";
 
 const markdown = markdownIt({
@@ -9,6 +10,10 @@ const markdown = markdownIt({
   typographer: true
 })
   .use(transformLocalMdLinksToHTML)
+  .use(taskLists, {
+    label: true,
+    labelAfter: true
+  })
   .use(markdownItAnchor, {
     permalink: true,
     permalinkClass: "heading-anchor-permalink",
