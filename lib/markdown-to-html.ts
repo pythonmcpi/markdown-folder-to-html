@@ -1,6 +1,10 @@
 import url from "url";
 import markdownIt from "markdown-it";
 import markdownItAnchor from "markdown-it-anchor";
+//import * as markdownItCheckbox from "markdown-it-checkbox";
+// https://stackoverflow.com/a/42505940
+const markdownItCheckbox = require("markdown-it-checkbox");
+const markdownItFootnote = require("markdown-it-footnote");
 import mdUrl from "./markdown-url-to-html";
 
 const markdown = markdownIt({
@@ -13,7 +17,12 @@ const markdown = markdownIt({
     permalink: true,
     permalinkClass: "heading-anchor-permalink",
     permalinkSymbol: "#"
-  });
+  })
+  .use(markdownItCheckbox, {
+	divWrap: true,
+	divClass: 'markdown-checkbox'
+  })
+  .use(markdownItFootnote);
 
 function transformLocalMdLinksToHTML(md: any) {
   const defaultLinkOpenRender =

@@ -521,5 +521,17 @@
         };
       })(this, this.document);
     </script>
+    
+    <!-- https://github.com/joakin/markdown-folder-to-html/issues/14#issuecomment-469198126 -->
+    <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
+    <!-- Alternative CDNs are availiable: https://highlightjs.org/download/ -->
+	
+	<script>
+		/* Disable all checkboxes by default */
+		const checkboxes = document.querySelectorAll("div.markdown-checkbox > input[type='checkbox']");
+		checkboxes.forEach(cb => { cb.disabled = true; });
+	</script>
   </body>
 </html>

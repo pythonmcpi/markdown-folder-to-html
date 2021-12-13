@@ -1,3 +1,12 @@
+# Fork Changes
+
+- Add syntax highlighting to the default template
+- Add snippet to default template for checkboxes
+- Add checkboxes support
+- Add footnotes support
+
+- Changed some links in the readme to point to the fork
+
 # markdown-folder-to-html
 
 Simplest zero-config way to generate html docs from markdown files.
@@ -46,7 +55,7 @@ If you want to change the output folder name, just `mv` it to something else.
 ### Custom HTML
 
 The default HTML is extremely basic, but
-[simple and pretty](https://github.com/joakin/markdown-folder-to-html/blob/master/docs/template.html),
+[simple and pretty](https://github.com/pythonmcpi/markdown-folder-to-html/blob/master/docs/template.html),
 and is the one used in the docs.
 
 This is the basic template that would work:
@@ -160,5 +169,5 @@ relied on simple concepts. That is what this tool does:
 
 ## Links
 
-- https://github.com/joakin/markdown-folder-to-html
-- https://npmjs.org/package/markdown-folder-to-html
+- https://github.com/pythonmcpi/markdown-folder-to-html
+- https://npmjs.org/package/@pipythonmc/markdown-folder-to-html
