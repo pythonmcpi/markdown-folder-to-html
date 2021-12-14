@@ -1,6 +1,6 @@
 {
   "name": "@pipythonmc/markdown-folder-to-html",
-  "version": "2.5.0",
+  "version": "2.5.1",
   "description": "Convert a folder with files and markdown documents to an HTML site",
   "main": "cli.js",
   "bin": {
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joakin/markdown-folder-to-html.git"
+    "url": "git+https://github.com/pythonmcpi/markdown-folder-to-html.git"
   },
   "keywords": [
     "markdown",
@@ -30,10 +30,13 @@
     "cli",
     "simple"
   ],
-  "author": "Joaquin Oltra <joaquin@chimeces.com> (http://chimeces.com)",
+  "contributors": [
+    "Joaquin Oltra <joaquin@chimeces.com> (http://chimeces.com)",
+    "Pipythonmc (https://github.com/pythonmcpi)"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/joakin/markdown-folder-to-html/issues"
+    "url": "https://github.com/pythonmcpi/markdown-folder-to-html/issues"
   },
   "homepage": "https://github.com/joakin/markdown-folder-to-html#readme",
   "dependencies": {
