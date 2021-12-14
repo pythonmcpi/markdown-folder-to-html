@@ -14,7 +14,7 @@ Simplest zero-config way to generate html docs from markdown files.
 Copies `docs` to `_docs` and compiles markdown files to html using
 `docs/template.html`.
 
-[Live example at chimeces.com/markdown-folder-to-html](http://chimeces.com/markdown-folder-to-html/)
+[Live example at chimeces.com/markdown-folder-to-html (does not contain changes made by fork)](http://chimeces.com/markdown-folder-to-html/)
 
 ## Usage
 
