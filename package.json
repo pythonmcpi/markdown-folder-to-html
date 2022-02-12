@@ -1,6 +1,6 @@
 {
   "name": "@pipythonmc/markdown-folder-to-html",
-  "version": "2.5.2",
+  "version": "2.5.3",
   "description": "Convert a folder with files and markdown documents to an HTML site",
   "main": "cli.js",
   "bin": {
